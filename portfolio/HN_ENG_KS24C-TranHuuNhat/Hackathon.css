@@ -1,0 +1,297 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #FEF0E3;
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    border-bottom: 2px solid #000000;
+}
+.logo {
+    padding: 20px 100px;
+}
+.group-button {
+    padding: 20px 100px;
+    display: flex;
+    flex-direction: row;
+}
+.group-button .button1 {
+    display: block;
+    background-color: #FEF0E3;
+    border: none;
+
+}
+.group-button .button2 {
+    background-color: #000000;
+    margin-left: 20px;
+    color: #FFFFFF;
+    border-radius: 15px;
+    padding: 0 5px;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #f1dcc4;
+}
+.about-smith {
+    width: 50%;
+    border-right: 2px solid #000000;
+    
+}
+.about-smith h1 {
+    font-size: 40px;
+    font-family: "Roboto", serif;
+    margin-left: 50px;
+    margin-top: 100px;
+
+}
+.about-smith .call-help {
+    margin-left: 50px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    padding-right: 285px;
+}
+.about-smith .numbers {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+.numbers .experience {
+    display: flex;
+    flex-direction: row;
+}
+.experience b {
+    font-size: 35px;
+    margin-right: 10px;
+}
+.experience p {
+    margin-right: 50px;
+}
+.numbers .customers {
+    display: flex;
+    flex-direction: row;
+}
+.customers b {
+    font-size: 35px;
+    margin-right: 10px;
+}
+.about-smith button {
+    background-color: #AC82FC;
+    padding: 5px 15px;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+header img {
+    width: 50%;
+}
+
+section {
+    background-color: #C6C2CD;
+}
+section p {
+    background-color: #C6C2CD;
+    color: #36009D;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+section h3 {
+    text-align: center;
+}
+.responsive {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 25px 25px;
+}
+.responsive .ul-ux {
+    background-color: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    width: calc(50% - 20px);
+    padding: 25px 25px;
+}
+.responsive .Graphics {
+    background-color: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    width: calc(50% - 20px);
+    padding: 25px 25px;
+}
+.responsive .app-concept {
+    background-color: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    width: calc(50% - 20px);
+    padding: 25px 25px;
+}
+.responsive .medical {
+    background-color: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    width: calc(50% - 20px);
+    padding: 25px 25px;
+}
+.responsive p {
+    text-align: start;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+.responsive h3 {
+    text-align: start;
+}
+.responsive img {
+    width: 98%;
+    height: 70%;
+    border-radius: 15px;
+    border: 2px solid #000000;
+    margin-bottom: 10px;
+}
+.contact {
+    background-color: #FFD7D4;
+
+}
+.contact .hour {
+    padding-top: 50px;
+    text-align: center;
+}
+.hour h2 {
+    font-size: 40px;
+}
+.hour p {
+    background-color: #FFD7D4;
+    color: #000000;
+    padding: 0 490px;
+}
+.contact-information {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.email {
+    background-color: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+}
+.call {
+    background-color: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+}
+.website {
+    background-color: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+}
+.contact-information h3 {
+    text-align: start;
+
+}
+.contact-information p {
+    background-color: #FFFFFF;
+}
+.contact img {
+    width: 50px;
+    height: 50px;
+    padding: 5px 5px;
+}
+
+footer {
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+@media screen and (max-width: 1200px){
+   .about-smith .numbers {
+    display: flex;
+    flex-direction: column;
+   }
+   .numbers .experience {
+    margin-bottom: 20px;
+   }
+   .group-button .button1 {
+    display: none;
+   }
+   .hour p {
+    padding: 0 0;
+    }
+}
+@media screen and (max-width: 768px){
+    .about-smith {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-smith h1{
+        width: 100%;
+        order: 1;
+    }
+    .about-smith p {
+        width: 100%;
+        order: 3;
+    }
+
+    header img {
+        width: 100%;
+        order: 2;
+    }
+    
+    .about-smith .numbers {
+        order: 4;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .about-smith button {
+        order: 5;
+        width: 100%;
+    }
+    .responsive {
+        display: flex;
+        flex-direction: column;
+    }
+    .responsive .ul-ux {
+        width: 100%;
+    }
+    .responsive .Graphics {
+        width: 100%;
+    }
+    .responsive .app-concept {
+        width: 100%;
+    }
+    .responsive .medical {
+        width: 100%;
+    }
+    .contact-information {
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-information .email {
+        width: 100%;
+    }
+    .contact-information .call {
+        width: 100%;
+    }
+    .contact-information .website {
+        width: 100%;
+    }
+    .hour p {
+        padding: 0 0;
+    }
+}
