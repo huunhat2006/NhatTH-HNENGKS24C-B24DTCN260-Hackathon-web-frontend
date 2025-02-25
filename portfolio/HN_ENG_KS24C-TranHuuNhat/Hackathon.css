@@ -238,27 +238,29 @@ footer {
         display: flex;
         flex-direction: column;
     }
-    .about-smith h1{
+    header {
+        width: 100%;
+    }
+    header h1{
         width: 100%;
         order: 1;
     }
-    .about-smith p {
+    header p {
         width: 100%;
         order: 3;
+        padding-right: 0;
     }
-
     header img {
         width: 100%;
         order: 2;
     }
-    
-    .about-smith .numbers {
+    header .about-smith .numbers {
         order: 4;
         display: flex;
         flex-direction: row;
         width: 100%;
     }
-    .about-smith button {
+    header button {
         order: 5;
         width: 100%;
     }
