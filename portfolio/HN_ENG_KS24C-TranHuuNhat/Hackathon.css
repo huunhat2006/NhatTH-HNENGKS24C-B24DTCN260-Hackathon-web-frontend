@@ -294,4 +294,7 @@ footer {
     .hour p {
         padding: 0 0;
     }
+    .contact-information p {
+        padding-top: 5px;
+    }
 }
